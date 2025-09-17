@@ -7,3 +7,4 @@ medical_chatbot_env/
 models/
 chroma_db/
 notebooks/
+smart-medical-chatbot/
