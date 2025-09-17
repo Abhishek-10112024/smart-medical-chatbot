@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-*.db
-*.log
-.venv/
-.env
-medical_chatbot_env/
