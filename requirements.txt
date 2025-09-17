@@ -1,0 +1,23 @@
+# Core
+python-dotenv
+pandas
+tqdm
+requests
+httpx
+
+# LangChain + embeddings + vector DB
+langchain
+langchain-community
+langchain-core
+sentence-transformers
+chromadb
+
+# LLaMA local inference
+llama-cpp-python
+
+# ML / Utils
+torch
+scikit-learn
+
+# Web UI
+streamlit

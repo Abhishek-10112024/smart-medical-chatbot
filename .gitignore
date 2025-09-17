@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/
+.env
+.DS_Store
+medical_chatbot_env/
+models/
+chroma_db/
+notebooks/

@@ -1,0 +1,19 @@
+name: Deploy to Hugging Face Space
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Push to Hugging Face Space
+        run: |
+          git config --global user.email abhishekraghuwanshi2022@gmail.com
+          git config --global user.name Abhishek Raghuwanshi
+          git remote add hf https://Abhishek990:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Abhishek990/smart-medical-chatbot
+          git push hf main --force
